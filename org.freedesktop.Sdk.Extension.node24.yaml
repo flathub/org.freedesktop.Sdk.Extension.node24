@@ -1,7 +1,7 @@
 app-id: org.freedesktop.Sdk.Extension.node24
-branch: "24.08"
+branch: '24.08'
 runtime: org.freedesktop.Sdk
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -19,8 +19,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v24.0.1/node-v24.0.1.tar.xz
-        sha256: 70271026971808409a7ed6444360d5fe3ef4146c1ca53f2ca290c60d214be84e
+        url: https://nodejs.org/dist/v24.0.2/node-v24.0.2.tar.xz
+        sha256: 1597075afc06e5c6145d0bfbd77e2072c2ec0ab71ac4950cf008b2641374cd71
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
